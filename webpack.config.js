@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'none',
-    entry: './src/features.ts',
+    entry: './src',
     output: {
         filename: "[name].bundle.js",
         chunkFilename: "[name].bundle.js",
